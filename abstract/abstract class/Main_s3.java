@@ -51,7 +51,7 @@ public class Main_s3 {
 
         Dog1 dog = new Dog1("Buddy");
         Cat cat = new Cat("Whiskers");
-
+        System.out.println(cat instanceof Animal1);
         dog.sound();  // Kết quả: Buddy barks
         dog.sleep();  // Kết quả: Buddy is sleeping.
 
